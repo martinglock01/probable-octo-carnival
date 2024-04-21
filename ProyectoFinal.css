@@ -1,0 +1,218 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #34495e;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 2.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+ header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ header a:hover{
+    color: yellow;
+ }
+
+ @media (min-width: 120px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
+
+#inicio h2{
+    color: #4995e6;
+    font-size: 30px;
+}
+
+#inicio p{
+    color: #121112;
+    font-size: 20px;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Estilos del banner */
+#banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f052db;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #f8ca00;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.destacados{
+    display: flex;
+    padding-left: 190px;
+    color: rgb(9, 205, 140);
+}
+
+.producto img{
+    padding-left:190px ;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.producto h4{
+    padding-left: 190px;
+    color: #f052db;
+}
+
+.producto p{
+    padding-left: 190px;
+}
+
+#contacto {
+    padding: 20px;
+    text-align: center;
+}
+
+#contacto p {
+    margin-bottom: 20px;
+}
+
+#contacto-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#redes-sociales {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+#redes-sociales h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes a img {
+    width: 40px;
+    height: 40px;
+}

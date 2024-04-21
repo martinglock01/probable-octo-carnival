@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Ropa Juvenil</title>
+    <style>
+        header {
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #34495e;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 2.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+ header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ header a:hover{
+    color: yellow;
+ }
+
+ @media (min-width: 120px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
+
+#ultimas-publicaciones{
+    margin: 0;
+    padding: 20px;
+}
+
+#ultimas-publicaciones h2{
+    color: rgb(230, 6, 181);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+
+}
+
+/* Estilos para las publicaciones */
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.post h3 {
+    margin-top: 0;
+    color: rgb(12, 144, 192);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fecha {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+.post p{
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#redes-sociales {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#redes-sociales h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center; 
+}
+
+.redes a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes a img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+    </style>
+   
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Blog </p>
+        <nav>
+            
+                <a href="Index.html">Inicio</a>
+                <a href="nosotros.html">Sobre Nosotros</a>
+                <a href="ofertas.html">Ofertas</a>
+                <a href="catalogo.html">Catalogo</a>
+                <a href="#contacto">Contacto</a>
+           
+        </nav>
+    </header>
+    
+    <section id="ultimas-publicaciones">
+        <h2>Últimas Publicaciones</h2>
+
+        <article class="post">
+            <h3>Tendencias de Moda para esta Temporada</h3>
+            <p class="fecha">Publicado el 20 de abril de 2024</p>
+            <p>En este artículo, discutiremos las tendencias de moda más populares... <br> Todas estas incógnitas encuentran su respuesta en los desfiles, ya que fueron el punto de encuentro en donde se dieron cita las estrellas,
+                 celebridades y personalidades involucradas en la industria para celebrar lo último de las tendencias vistas en Nueva York, Londres, Milán y París,
+                  mismas que llegan hasta el escenario del street style y de las alfombras rojas para resolver el qué y cómo se usan las tendencias este año.</p>
+        </article>
+
+        
+            <article class="post">
+                <h3>El Regreso Triunfal de los Estampados Florales</h3>
+                <p class="fecha">Publicado el 20 de abril de 2024</p>
+                <p>Los estampados florales están de vuelta con más fuerza que nunca. Desde vestidos hasta camisas y accesorios, los florales están dominando las pasarelas y las calles.
+                     Descubre cómo incorporar este clásico estampado en tu armario esta temporada.</p>
+            </article>
+            
+                <article class="post">
+                    <h3>Las 5 Tendencias de Moda Imprescindibles para Esta Temporada</h3>
+                    <p class="fecha">Publicado el 20 de abril de 2024</p>
+                    <p>Descubre las últimas tendencias que están arrasando en el mundo de la moda esta temporada. 
+                        Desde colores vibrantes hasta estilos retro renovados, estas son las tendencias que no querrás perderte.</p>
+                </article>
+                
+                    <article class="post">
+                        <h3>Minimalismo Chic: La Elegancia en la Sencillez</h3>
+                        <p class="fecha">Publicado el 20 de abril de 2024</p>
+                        <p> El minimalismo chic está en alza, con siluetas limpias y colores neutros que dominan las tendencias de moda.
+                             Descubre cómo puedes lucir elegante y sofisticado con looks minimalistas que destacan por su simplicidad y refinamiento.</p>
+                    </article>
+    </section>
+    <br><br>
+
+    <section id="redes-sociales">
+        <h2>Síguenos en Redes Sociales</h2>
+        <div class="redes">
+            <a href="#" target="_blank"><img src="imgc/facebook.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="imgc/instagram.png" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="imgc/Twitter.png" alt="Twitter"></a>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <footer>
+        <p>&copy; 2024 Blog Youth Store. Todos los Derechos reservados</p>
+    </footer>
+</body>
+</html>

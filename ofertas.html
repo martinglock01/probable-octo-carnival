@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa Juvenil</title>
+
+    <style>
+
+ #ofertas {
+    padding: 20px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #34495e;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 2.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+ header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ header a:hover{
+    color: yellow;
+ }
+
+ @media (min-width: 120px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+}
+
+
+
+.oferta {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.oferta img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.oferta h3 {
+    font-size: 25px;
+    margin-top: 0;
+    color: rgb(236, 12, 203);
+}
+
+.oferta p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.oferta button {
+    background-color: #4e8be0;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.oferta button:hover {
+    background-color: #d50707;
+}
+
+#redes-sociales {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#redes-sociales h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center; /* Alinea horizontalmente */
+}
+
+.redes a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes a img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo"> Youth Store <br>!Ofertas Especiales¡ </p><br>
+     
+             <nav>
+                 <a href="Index.html">Inicio</a>
+                 <a href="catalogo.html">Catalogo</a>
+                 <a href="blog.html">Blog</a>
+                 <a href="nosotros.html">Sobre Nosotros</a>
+                 <a href="#contacto">Contacto</a>
+             
+            </nav>
+          </div>
+     </header>
+
+      <section id="ofertas">
+        <div class="oferta">
+            <img src="imgc/blusaroja.png" alt="Oferta 1">
+            <h3>Camiseta de Manga Corta</h3>
+            <p>¡Aprovecha esta oferta especial! 50% de descuento.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/pvaquero.png" alt="Oferta 2">
+            <h3>Pantalones Vaqueros</h3>
+            <p>¡No te pierdas esta oferta!.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/pttanike.png" alt="Oferta 2">
+            <h3>Pantaloneta Nike</h3>
+            <p>¡No te pierdas esta oferta!.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/oversidewhite.png" alt="Oferta 2">
+            <h3>Oversize</h3>
+            <p>¡No te pierdas esta oferta!.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/pandistroyer.png" alt="Oferta 2">
+            <h3>Pantalon </h3>
+            <p>¡No te pierdas esta oferta! Compra uno y llévate otro gratis.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/blusa1.png" alt="Oferta 2">
+            <h3>blusa</h3>
+            <p>¡Aprovecha esta oferta especial! 50% de descuento.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/jordan.png" alt="Oferta 2">
+            <h3>tenis Jordan Reto 4</h3>
+            <p>¡Aprovecha esta oferta especial! 10% de descuento.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/oversidenegra.png" alt="Oferta 2">
+            <h3>Oversize Negra</h3>
+            <p>¡No te pierdas esta oferta!.</p>
+            <button>Agregar al carrito</button>
+        </div>
+
+        <div class="oferta">
+            <img src="imgc/blusa2.png" alt="Oferta 2">
+            <h3>Blusa mujer</h3>
+            <p>¡No te pierdas esta oferta! 10% de descuento.</p>
+            <button>Agregar al carrito</button>
+        </div>
+    </section>
+
+    <section id="redes-sociales">
+        <h2>Síguenos en Redes Sociales</h2>
+        <div class="redes">
+            <a href="#" target="_blank"><img src="imgc/facebook.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="imgc/instagram.png" alt="Instagram"></a>
+            <a href="#" target="_blank"><img src="imgc/Twitter.png" alt="Twitter"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Youth Store. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
